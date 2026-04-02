@@ -1,0 +1,40 @@
+{
+  "name": "phntm",
+  "version": "0.2.0",
+  "description": "Encrypted file sharing from the terminal. Zero-knowledge, self-destructing files.",
+  "keywords": [
+    "encryption",
+    "file-sharing",
+    "privacy",
+    "security",
+    "cli",
+    "e2e",
+    "aes-256-gcm"
+  ],
+  "author": "Ali Raza <aliirz@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliirz/phntm-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aliirz/phntm-npm/issues"
+  },
+  "homepage": "https://phntm.sh",
+  "bin": {
+    "phntm": "./bin/phntm.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "postinstall": "node ./bin/download.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
