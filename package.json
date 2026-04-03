@@ -1,5 +1,5 @@
 {
-  "name": "phntm",
+  "name": "@aliirz/phntm",
   "version": "0.2.0",
   "description": "Encrypted file sharing from the terminal. Zero-knowledge, self-destructing files.",
   "keywords": [
